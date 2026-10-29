@@ -1,0 +1,13 @@
+# Strict structural code quality, within the Standards axis
+
+Read the original [Code Quality Review](upstream/pstack/interrogate/references/code-quality-review.md) and [Lead Judgment](upstream/pstack/interrogate/references/lead-judgment.md). The user called this “thermo nuclear code quality review”; the pinned source title is Code Quality Review. This adaptation keeps its demanding structural lens without pretending there is a separate upstream Skill of that name.
+
+In the fresh Standards leaf, examine the full selected change and real callers for: a simpler formulation that removes branches/layers, tangled special cases, unjustified indirection, unclear type/boundary contracts, logic outside its canonical owner, duplicated existing helpers, avoidable serial orchestration and updates that can leave related state half-applied. Crossing 1000 file lines is a strong inspection trigger, not proof of a bug or permission to split files mechanically. A real adapter can own important authorization/error/protocol behavior despite forwarding a call.
+
+Check changed comments, nested branches, casts, exception handlers and loops against ~/.codex/harness/references/cleanup.md. Distinguish necessary defensive validation at an external boundary from redundant checks after a proven invariant. Do not ban loops, comments or small functions categorically.
+
+For a concrete matching engineering-principle decision, use installed `pstack-principles` at its native path for only the relevant source; do not load all 24 or launch another review method.
+
+Label these findings `structural quality` separately from `documented violation` and `behavior defect`; retain Matt's entire smell baseline and keep Spec independent. For each quality finding, name the actual path/complexity, consequence and a concrete smaller alternative, including what it costs or risks. A meaningful missed simplification is actionable even when outputs currently match, but a preferred style, hypothetical caller or abstraction for a nonexistent future requirement is not a substantiated blocker. An empty report is allowed. Consensus is a signal to inspect, not evidence by itself.
+
+The Standards review owns these structural judgments against evidence and approved tradeoffs. An evidence/readiness check consumes the resulting coverage; it does not repeat the code review. Preserve unresolved design judgments and ask only for a consequential new decision. No reviewer applies broad rewrites, expands scope or changes architecture. Show a necessary redesign to the user in ordinary Chinese before implementing it under the existing approval gate. Use the code-review adapter’s shared reviewer/recheck limits; this lens adds no panel or separate budget.

@@ -1,0 +1,9 @@
+# Architecture in an actual project
+
+Consult available codebase-design vocabulary. For the selected area, identify its real callers, user-visible operations, state ownership, public boundary, dependencies and failure handling. Use the project's existing terms through integration.md; do not auto-create a competing glossary.
+
+For unfamiliar surrounding code consult [pstack how](upstream/pstack/how/source.md) for its grounding method. Read the fixed [pstack architecture reference](upstream/pstack/architect/source.md) and its [red flags](upstream/pstack/architect/references/design-red-flags.md) when relevant to a boundary decision. [Model the domain](upstream/pstack/principle-model-the-domain/source.md) and [boundary discipline](upstream/pstack/principle-boundary-discipline/source.md) help assess state and validation ownership. Tool/model/default implementation instructions are adapted by integration.md. Do not run both full upstream multi-design orchestrators in sequence. If the applicable existing Design It Twice procedure is used, follow its independent exploration requirements and actual scope.
+
+Compare preserving the current design, the smallest change meeting the accepted requirements, and another materially different feasible structure where a consequential choice exists. Explain benefits, added knowledge a caller needs, migration/maintenance and failure tradeoffs. Fewer lines/files/layers alone establish nothing. A wrapper doing shared image/progress/deadline/log wiring may have value; trace its responsibilities before calling it a useless middleman.
+
+Name what is reused, adapted and newly owned. Keep project-specific policies with their project owner; avoid a generic framework until real requirements justify it. Present the design using human-review.md and obtain the existing required architecture approval. Upstream defaults that proceed directly to coding do not waive that approval.

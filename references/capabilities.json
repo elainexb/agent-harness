@@ -1,0 +1,9 @@
+{
+  "workflow_version": "GW-2026-10-23.1",
+  "independent_review": "REQUIRES_AVAILABLE_FRESH_CONTEXT_TOOL",
+  "genuine_harness2_integration": "NOT_CONNECTED",
+  "harness2_phase": 2,
+  "activation_requires": "Explicitly approved integration plus actual source/model/permission/evidence validation; not a model-written flag alone.",
+  "default_external_model_api": false,
+  "default_source_auto_update": false
+}

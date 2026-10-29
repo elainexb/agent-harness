@@ -1,0 +1,35 @@
+{
+  "repo": "https://github.com/cursor/plugins",
+  "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+  "license": "MIT",
+  "copyright": "2026 Lauren Tan",
+  "source_files": [
+    {
+      "upstream_path": "pstack/LICENSE",
+      "sha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "git_blob_sha": "6b5400237fdf6545be0b8fae370d6f2fcff8fb25"
+    },
+    {
+      "upstream_path": "pstack/skills/create-verification-skill/SKILL.md",
+      "sha256": "d353973547bf8ad8977eca645f4cd4feaed0d32f4b43d1448f906b0a76c4d694",
+      "git_blob_sha": "140d033a001e8d27acd14b06004506c43053b199"
+    },
+    {
+      "upstream_path": "pstack/skills/create-verification-skill/references/feature-map-example/README.md",
+      "sha256": "cb7bd782cf89968a4ba3d58a5151db837430db92d19a6f52a906973b77b516ba",
+      "git_blob_sha": "fb64570cfab3bbe672fe80925651933ebd57aa33"
+    },
+    {
+      "upstream_path": "pstack/skills/create-verification-skill/references/feature-map-example/create-note.md",
+      "sha256": "644a44c74f35d38c2feb7cd05a0121fdebbb623e8dc376c185b565a581d1ccf7",
+      "git_blob_sha": "21357566b69223a503d6780a04fb90ce540eae22"
+    },
+    {
+      "upstream_path": "pstack/skills/create-verification-skill/references/feature-map-example/search.md",
+      "sha256": "6e87b9e7f2791a7776ba1bb83f371cd285c306c67f19d245cc4dd6ca3015c823",
+      "git_blob_sha": "1f8e57d3aaf19cf27a9464d55fa72e46bcbc8b0f"
+    }
+  ],
+  "adaptation": "Codex project-local .agents path, existing approval gates, existing tools/dependencies, no model/API/default installation or recurring automation; original method retained in generation-contract.md",
+  "auto_update": false
+}

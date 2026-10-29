@@ -1,0 +1,81 @@
+{
+  "workflow_version": "GW-2026-10-23.1",
+  "retrieved_date": "2026-10-23",
+  "auto_update": false,
+  "archive_entry_name": "SKILL.md stored as source.md to avoid advertising archived upstream methods as additional callable skills",
+  "adaptation_owner": "User-level Harness review/strict-quality.md and pinned provenance, separately owned from Skill packages; code-review owns the Matt algorithm and delivery-assurance owns evidence/readiness; archived originals are not additional callable methods",
+  "files": [
+    {
+      "path": "upstream/matt/code-review/source.md",
+      "upstream_path": "skills/engineering/code-review/SKILL.md",
+      "repo": "https://github.com/mattpocock/skills",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "git_blob_sha": "373a4f26e6cfa3617778397945bb069d9cb184bc",
+      "sha256": "09eb147f793e4647949edd32dbad278f0554dfb56e0d46b699cd4c2c55bf0357",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/matt/LICENSE",
+      "upstream_path": "LICENSE",
+      "repo": "https://github.com/mattpocock/skills",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "git_blob_sha": "f1dd2c09108dde1a5f56097cee8461b3ea834499",
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/interrogate/source.md",
+      "upstream_path": "pstack/skills/interrogate/SKILL.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "94946d22d8bf896bfcc2c54d363df5af3d17b4ca",
+      "sha256": "a16dfe179005abc22a4651b82f25b0c8ab953284276efe4e6dc341958fb63647",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/interrogate/references/code-quality-review.md",
+      "upstream_path": "pstack/skills/interrogate/references/code-quality-review.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "16581250d81044c7e80fe234c4970a3f7b7fc98a",
+      "sha256": "79162fda183eafd40d51661fbb5e151c7ba250f89e506ba17f5bd135dcbd50a8",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/interrogate/references/lead-judgment.md",
+      "upstream_path": "pstack/skills/interrogate/references/lead-judgment.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "3b41346c9c3f5c35453d34f1c77374b7e9346aa9",
+      "sha256": "355f5195a76bc75a655125292369f2a8231a2b61fabe5188d8f1386060922b87",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/interrogate/references/reviewer-prompt.md",
+      "upstream_path": "pstack/skills/interrogate/references/reviewer-prompt.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "ef7bff3d77c35a0af2a9947187ccee15465657f4",
+      "sha256": "f6005cc2b535006fca97a96c5bfda49df57312eedf1ffd8d1aaaf3eb33817c25",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/interrogate/references/rubric.md",
+      "upstream_path": "pstack/skills/interrogate/references/rubric.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "8dab195ab840554bfe5e74e9b5ca0d9edbe9b496",
+      "sha256": "0f9c6bdb0b96e26dbde5f6407f417e0c02f54080e7a1268d8994f3c3ec6c5ac0",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/LICENSE",
+      "upstream_path": "pstack/LICENSE",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "6b5400237fdf6545be0b8fae370d6f2fcff8fb25",
+      "sha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "unchanged_bytes": true
+    }
+  ]
+}

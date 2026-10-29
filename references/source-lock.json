@@ -1,0 +1,255 @@
+{
+  "workflow_version": "GW-2026-10-23.1",
+  "retrieved_date": "2026-10-23",
+  "auto_update": false,
+  "archive_entry_name": "SKILL.md stored as source.md to avoid advertising archived upstream methods as additional callable skills",
+  "adaptation_owner": "User-level Harness: ~/.codex/harness/references/integration.md; separately owned from Skill packages; originals are method references, not standalone executable workflows",
+  "files": [
+    {
+      "path": "upstream/matt/tdd/source.md",
+      "upstream_path": "skills/engineering/tdd/SKILL.md",
+      "repo": "https://github.com/mattpocock/skills",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "git_blob_sha": "01eadaa34e7c9a63a67d6dc3cce1cc81b0e49985",
+      "sha256": "5505d25bbaa8fc14a79e4d20163936958992a2995b7f1dd1d6197edc9ed722e0",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/matt/tdd/mocking.md",
+      "upstream_path": "skills/engineering/tdd/mocking.md",
+      "repo": "https://github.com/mattpocock/skills",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "git_blob_sha": "71cbfee674d93244ce81d1830b930ca9a69200bd",
+      "sha256": "3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/matt/tdd/tests.md",
+      "upstream_path": "skills/engineering/tdd/tests.md",
+      "repo": "https://github.com/mattpocock/skills",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "git_blob_sha": "7ab86479f925a1f9e8ba680af33cb3b12e015381",
+      "sha256": "859f9e592c188fda4fc7277dd180e4ce9c7a2e13f6efe1f6f29eccc9d28c106a",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/matt/diagnosing-bugs/source.md",
+      "upstream_path": "skills/engineering/diagnosing-bugs/SKILL.md",
+      "repo": "https://github.com/mattpocock/skills",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "git_blob_sha": "d039541ddd1c46e6ddbd662fe99d49b686fc5e12",
+      "sha256": "849198df88cdb65fd0d97236604c1fca7ff2f22d2f705f9724a800d0266b118d",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/matt/diagnosing-bugs/scripts/hitl-loop.template.sh",
+      "upstream_path": "skills/engineering/diagnosing-bugs/scripts/hitl-loop.template.sh",
+      "repo": "https://github.com/mattpocock/skills",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "git_blob_sha": "243198464a8401a7ba1d63b3708fa43c3d067665",
+      "sha256": "35103539fc36873eea36074769ad454f9379d6fc8b2dc0e26ce987fd3bfe5503",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/matt/pr/CREDITS.md",
+      "upstream_path": "skills/engineering/pr/CREDITS.md",
+      "repo": "https://github.com/mattpocock/skills",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "git_blob_sha": "5314bda2fa6005e264c9b5c1de7c425e719dc91f",
+      "sha256": "a7a087127665d7298a72280ef6e19c41ad8404523712a788c8dc3ab414bc2497",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/matt/pr/source.md",
+      "upstream_path": "skills/engineering/pr/SKILL.md",
+      "repo": "https://github.com/mattpocock/skills",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "git_blob_sha": "84dd4fb2f068e9f6282690235d20dd505b418119",
+      "sha256": "ab63f1cf78647389edcd386c9427c5dfca27ed2836930c24773ffee834c19bcd",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/matt/LICENSE",
+      "upstream_path": "LICENSE",
+      "repo": "https://github.com/mattpocock/skills",
+      "commit": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "git_blob_sha": "f1dd2c09108dde1a5f56097cee8461b3ea834499",
+      "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/architect/source.md",
+      "upstream_path": "pstack/skills/architect/SKILL.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "88e23ca105b89e67f4085d0e676c40d4b170a623",
+      "sha256": "31f8e97a52bfa5432edd61f68ade2a8632ef0bacbc2d2a6802d7a0e6821944ac",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/architect/references/design-red-flags.md",
+      "upstream_path": "pstack/skills/architect/references/design-red-flags.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "f8503c9595b289c607ff5088f82b21197edf94ec",
+      "sha256": "d0e639e4cc588ec865f930d3a4111faad60987ae36925917e319d7ceca7c69ce",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/architect/references/rationale-template.md",
+      "upstream_path": "pstack/skills/architect/references/rationale-template.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "a10f77f59510c532cd909faaf3bfeee5ffbfd588",
+      "sha256": "0cedfccdc7b47fc881febd5a8293eecbc542c20f8df825639904a8102d2eb5d3",
+      "unchanged_bytes": false,
+      "publication_sha256": "405f55a36272ca0d8a765dc7f710bad3943a1ea74ef8ad8a8be38848601bd9dd",
+      "publication_adaptation": "Only document link targets relocated. sha256 remains the original upstream-source identity; publication_sha256 identifies this distributed copy."
+    },
+    {
+      "path": "upstream/pstack/architect/references/runner-prompt.md",
+      "upstream_path": "pstack/skills/architect/references/runner-prompt.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "b1ad21aef22e80d718c361787190b599eb359d6c",
+      "sha256": "21dd5314aab778c5007228027a4591d97693fbec6ab86524037772b63f40948e",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/how/source.md",
+      "upstream_path": "pstack/skills/how/SKILL.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "67edc340d4d8a9c7ab0b9e08c663e0e63b8d9125",
+      "sha256": "08a00079bb15b4258874ac3ff62d4ca7e94350ffedb521d0fd296dc9dd21904e",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/how/references/explainer-prompt.md",
+      "upstream_path": "pstack/skills/how/references/explainer-prompt.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "3a36fb6736c5b74ac2774350841e332a019dec94",
+      "sha256": "ddb89cebefc24e2b54517a331aedfe045b6971e101f45c71b8cef4cccff45bff",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/how/references/explorer-prompt.md",
+      "upstream_path": "pstack/skills/how/references/explorer-prompt.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "724bacfc7df759865c0c29705bfee641e4c1aeca",
+      "sha256": "6300128385ee940fd42ecb84b0e623435440a2dc283eae54ee4a52ba56947ba1",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/blast-radius/source.md",
+      "upstream_path": "pstack/skills/blast-radius/SKILL.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "b296cce0d746260a53c16e3671cb05bacfe82daf",
+      "sha256": "2e10745b97f5862323dcda3b29ca60d56b5c3c98e37020085d26b48efbe0a436",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/create-verification-skill/source.md",
+      "upstream_path": "pstack/skills/create-verification-skill/SKILL.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "140d033a001e8d27acd14b06004506c43053b199",
+      "sha256": "d353973547bf8ad8977eca645f4cd4feaed0d32f4b43d1448f906b0a76c4d694",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/create-verification-skill/references/feature-map-example/README.md",
+      "upstream_path": "pstack/skills/create-verification-skill/references/feature-map-example/README.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "fb64570cfab3bbe672fe80925651933ebd57aa33",
+      "sha256": "cb7bd782cf89968a4ba3d58a5151db837430db92d19a6f52a906973b77b516ba",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/create-verification-skill/references/feature-map-example/create-note.md",
+      "upstream_path": "pstack/skills/create-verification-skill/references/feature-map-example/create-note.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "21357566b69223a503d6780a04fb90ce540eae22",
+      "sha256": "644a44c74f35d38c2feb7cd05a0121fdebbb623e8dc376c185b565a581d1ccf7",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/create-verification-skill/references/feature-map-example/search.md",
+      "upstream_path": "pstack/skills/create-verification-skill/references/feature-map-example/search.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "1f8e57d3aaf19cf27a9464d55fa72e46bcbc8b0f",
+      "sha256": "6e87b9e7f2791a7776ba1bb83f371cd285c306c67f19d245cc4dd6ca3015c823",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/no-comments/source.md",
+      "upstream_path": "pstack/skills/no-comments/SKILL.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "a07ce9dfc657bdf1b2bdf3f7619225e7faac091b",
+      "sha256": "078ecfe224eafbb017f6476870612838bf6dbe38c0b697e12f0c887d0313f17e",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/principle-model-the-domain/source.md",
+      "upstream_path": "pstack/skills/principle-model-the-domain/SKILL.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "09b7c739955facf03f08f66e1e329745d2f8880e",
+      "sha256": "52c0d85e0c3827c41c18299b642657d7b47eaf77b7b31609e42e0df42b84c75f",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/principle-boundary-discipline/source.md",
+      "upstream_path": "pstack/skills/principle-boundary-discipline/SKILL.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "dfe9a6fb0e5acd6ae43a41437ee0951adfe839cb",
+      "sha256": "62ac2862c2caa22dd14531f51c9c6bb445ceb198ca98a687e25b4d47c1f10a28",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/principle-test-behavior-not-implementation/source.md",
+      "upstream_path": "pstack/skills/principle-test-behavior-not-implementation/SKILL.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "78c9389bfe707d6d56485ade32c59150958228f9",
+      "sha256": "f7223698623b6a26fea49c751e466b38e6691b1f32ce841d3983e7ffbe2b74a6",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/principle-prove-it-works/source.md",
+      "upstream_path": "pstack/skills/principle-prove-it-works/SKILL.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "5dc14a3b06f9d579e5c17cd8a7242f432ddb3125",
+      "sha256": "ec79a15025bac8d33d62011c54f3b612733fd2a024e623b531b3637aa75070e2",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/LICENSE",
+      "upstream_path": "pstack/LICENSE",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "6b5400237fdf6545be0b8fae370d6f2fcff8fb25",
+      "sha256": "bc957ca6bee02792566a1a028d105e02e247c6e77cf057061674273da77b200e",
+      "unchanged_bytes": true
+    },
+    {
+      "path": "upstream/pstack/no-comments/comment-sicko.md",
+      "upstream_path": "pstack/agents/comment-sicko.md",
+      "repo": "https://github.com/cursor/plugins",
+      "commit": "8b3326d99fd4b993cb33a24dad8af03175c642c5",
+      "git_blob_sha": "209e3704dfa75022060c936bd3f3362fa3bbe254",
+      "sha256": "3e239e40b7b4b9beb2cf7f3ccc57f2388eb8b69bd1ba8ae888ef87ef6e0e2116",
+      "unchanged_bytes": true
+    }
+  ],
+  "record_role": "Upstream source pins plus explicit publication-copy identities for link-relocated files; not an unchanged installation receipt."
+}
